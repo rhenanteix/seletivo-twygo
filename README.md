@@ -44,7 +44,7 @@ Os requisitos para esse projeto são:
 
 > (GP): Olá desenvolvedor, como está indo o progresso do projeto? A gerência acabou de solicitar que implementemos uma nova funcionalidade que exigirá a extração de alguns relatórios dos cursos. Eles estão interessados em ver o tamanho total ocupado pelos vídeos nos cursos. Você acha que isso é possível? Não temos muitas restrições quanto à forma de apresentação, pode ser uma tela, um relatório ou qualquer outra forma que demonstre claramente o tamanho total ocupado pelos vídeos nos cursos. Estou ansioso para ver como você abordará essa tarefa.
 
-## Obeservações
+## Observações
 
 O objetivo aqui não é você programar de graça para nós, nem te fazer perder tempo com algo irrelevante. Nosso objetivo aqui é ter um código sobre o qual podemos conversar. Nós prezamos muito por colaboração, trabalho em equipe e comunicação, nosso propósito com esse desafio é ter, minimamente, essa experiência com você.
 
@@ -56,8 +56,9 @@ Caso não consiga completar o desafio ou enfrente qualquer dificuldade, nos envi
 
 ## Diferenciais
 
-📌 A construção da aplicação pode ser monolito ou SPA, sendo SPA um diferencial  
-📌 Para o Frontend é desejável o uso de Typescript.
-
+📌 A construção da aplicação pode ser monolito ou SPA, sendo SPA um diferencial;  
+📌 Para o Frontend é desejável o uso de Typescript;  
+📌 Uso de testes unitários;  
+📌 Uso de Docker;  
 
 🍀 Boa sorte
