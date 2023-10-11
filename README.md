@@ -47,4 +47,8 @@ Caso não consiga completar o desafio ou enfrente qualquer dificuldade, nos envi
 📌 Uso de testes unitários;  
 📌 Uso de Docker;  
 
+## Como tirar dúvidas
+Em caso de dúvidas, nossa equipe está à disposição para ajudar.  
+:mailbox: corporativotec@twygo.com
+
 🍀 Boa sorte
