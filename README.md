@@ -26,21 +26,6 @@ Os requisitos para esse projeto são:
 | R.6 | Forneça uma maneira de editar e excluir cursos existentes.
 | R.7 | Apresentação tamanho total ocupado pelos vídeos nos cursos.
 
-**Tabela de curso**
-| Campo | Tipo  | Obrigatório
-| ----- | ----- | --------- |
-| Nome do curso | Texto | Sim
-| Descrição do curso | Texto | Sim
-| Data de início | Data | Sim
-| Data de fim | Data | Sim
-
-**Tabela de vídeos**
-| Campo | Tipo  | Obrigatório
-| ----- | ----- | --------- |
-| Titulo | Texto | Sim
-| ID do conteúdo | Inteiro | Sim
-| PATH/URL | Texto | Sim
-
 
 > (GP): Olá Dev, como está indo o progresso do projeto? A gerência acabou de solicitar que implementemos uma nova funcionalidade que exigirá a extração de alguns relatórios dos cursos. Eles estão interessados em ver o tamanho total ocupado pelos vídeos nos cursos. Você acha que isso é possível? Não temos muitas restrições quanto à forma de apresentação, pode ser uma tela, uma query, um relatório ou qualquer outra forma que demonstre claramente o tamanho total ocupado pelos vídeos nos cursos. Tenho interesse em ver como você abordará essa tarefa.
 
@@ -57,7 +42,8 @@ Caso não consiga completar o desafio ou enfrente qualquer dificuldade, nos envi
 ## Diferenciais
 
 📌 A construção da aplicação pode ser monolito ou SPA, sendo SPA um diferencial;  
-📌 Para o Frontend é desejável o uso de Typescript;  
+📌 Uso de Typescript;  
+📌 Uso de React;  
 📌 Uso de testes unitários;  
 📌 Uso de Docker;  
 
