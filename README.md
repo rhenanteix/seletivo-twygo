@@ -44,6 +44,7 @@ Caso não consiga completar o desafio ou enfrente qualquer dificuldade, nos envi
 📌 A construção da aplicação pode ser monolito ou SPA, sendo SPA um diferencial;  
 📌 Uso de Typescript;  
 📌 Uso de React;  
+📌 Uso de ChakraUi;  
 📌 Uso de testes unitários;  
 📌 Uso de Docker;  
 
