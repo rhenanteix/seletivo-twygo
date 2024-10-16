@@ -1,26 +1,43 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from 'react';
+import { ChakraProvider, Box, Heading, Button, theme, extendTheme} from '@chakra-ui/react';
+import CourseList from './components/CourseList';
+import CourseForm from './components/CourseForm';
+import { Course } from './types';
+import { getCourses } from './services/courseService';
 
-function App() {
+const customTheme = extendTheme({
+  // Personalize seu tema aqui
+});
+
+const App: React.FC = () => {
+  const [courses, setCourses] = useState<Course[]>([]);
+  const [showForm, setShowForm] = useState(false);
+
+  useEffect(() => {
+    async function fetchCourses() {
+      const fetchedCourses = await getCourses();
+      setCourses(fetchedCourses);
+    }
+    fetchCourses();
+  }, []);
+
+  const handleAddCourse = (newCourse: Course) => {
+    setCourses([...courses, newCourse]);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ChakraProvider>
+      <Box p={4}>
+        <Heading mb={6}>Cursos Disponíveis</Heading>
+        {showForm ? (
+          <CourseForm onAddCourse={handleAddCourse} />
+        ) : (
+          <Button onClick={() => setShowForm(true)}>Adicionar Curso</Button>
+        )}
+        <CourseList courses={courses} />
+      </Box>
+    </ChakraProvider>
   );
-}
+};
 
 export default App;
