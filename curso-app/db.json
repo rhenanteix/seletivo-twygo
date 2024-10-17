@@ -5,7 +5,8 @@
         "title": "Curso React",
         "description": "Aprenda React do zero",
         "startDate": "2024-01-01",
-        "endDate": "2024-12-31"
+        "endDate": "2024-12-31",
+        "videoUrl": "https://www.youtube.com/@ModderClips"
       }
     ]
   }

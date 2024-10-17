@@ -1,4 +1,3 @@
-// src/services/courseService.ts
 import { Course } from '../types';
 
 export async function getCourses(): Promise<Course[]> {

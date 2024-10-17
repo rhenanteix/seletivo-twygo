@@ -6,7 +6,6 @@ import { Course } from './types';
 import { getCourses } from './services/courseService';
 
 const customTheme = extendTheme({
-  // Personalize seu tema aqui
 });
 
 const App: React.FC = () => {
